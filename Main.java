@@ -26,8 +26,12 @@ public class Main
         System.out.println("Enter the second y-coordinate: ");
         y2 = scan.nextDouble();
 
-        System.out.println("Slope: " + calcSlope(x1, x2, y1, y2););
+        System.out.println("Slope: " + calcSlope(x1, x2, y1, y2));
 
+        System.out.println("Enter two doubles: ");
+        double d1 = scan.nextDouble();
+        double d2 = scan.nextDouble();
+        System.out.println("Distance: " + roundedDist(d1,d2));
     }
     
     public static void printRandom3(int num)
